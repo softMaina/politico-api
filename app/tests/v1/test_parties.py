@@ -2,7 +2,7 @@ import json
 
 from flask import current_app
 
-from app.tests import base_test
+from . import base_test
 
 class TestParties(base_test.TestBaseClass):
     # class contains tests for party endpoints
