@@ -12,3 +12,4 @@ def get_parties():
         'status':200,
         'data':{"party":data}
     })),200
+    
