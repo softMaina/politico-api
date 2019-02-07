@@ -12,3 +12,8 @@ class TestParties(base_test.TestBaseClass):
         response = self.app_test_client.get('/api/v1/party',json=self.PARTY)
 
         self.assertEqual(response.status_code,200)
+    
+    def test_add_party(self):
+        response = self.app_test_client.post('/api/v1/party/add',json=self.PARTY)
+
+        self.assertEqual(response.status_code,201)

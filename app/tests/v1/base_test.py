@@ -18,8 +18,9 @@ class TestBaseClass(unittest.TestCase):
 
         self.PARTY = {
             'id':1,
-            'title':'Jubilee',
-            'slogan':'Tuko Pamoja'
+            'name':'Jubilee',
+            'hqaddress':'Tuko Pamoja',
+            'logoUrl':'www.youtube.com'
         }
 
         
