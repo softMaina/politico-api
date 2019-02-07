@@ -1,6 +1,6 @@
 
 [![Build Status](https://travis-ci.org/softMaina/politico-api.svg?branch=develop)](https://travis-ci.org/softMaina/politico-api)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/c71beed775eb3c0307ed/test_coverage)](https://codeclimate.com/github/softMaina/politico-api/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c71beed775eb3c0307ed/maintainability)](https://codeclimate.com/github/softMaina/politico-api/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/softMaina/politico-api/badge.svg?branch=ft-get-parties-163759304)](https://coveralls.io/github/softMaina/politico-api?branch=ft-get-parties-163759304)
 # politico-api
 An api to process online voting 
