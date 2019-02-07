@@ -4,6 +4,7 @@ from app import create_app
 from instance.config import config
 
 
+
 class TestBaseClass(unittest.TestCase):
     """ Base test class """
 
