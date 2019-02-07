@@ -13,3 +13,22 @@ def get_parties():
         'data':{"party":data}
     })),200
     
+@party_route.route('/add',methods=['POST'])
+def add_party():
+  
+    try:
+        data = request.get_json(force=True)
+    except:
+        return make_response(jsonify({
+            "status":400,
+            "message":"wrong input"
+        })),400  
+    name = data["name"]
+    hqaddress = data["hqaddress"]
+    logoUrl = data["logoUrl"]
+
+    PARTY.add_party(name, hqaddress,logoUrl)
+    return make_response(jsonify({
+        "status":201,
+        "data":[{"message":"success"}]
+    })),201
